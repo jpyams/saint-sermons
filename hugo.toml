@@ -1,0 +1,3 @@
+baseURL = 'https://saint-sermons.netlify.app/'
+languageCode = 'en-us'
+title = 'Saint Sermons'

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body id="top">
+    <main class="main">
+        <a href="/"><h2>Saint Sermons</h2></a>
+        {{- block "main" . }}{{ end }}
+    </main>
+</body>
+
+</html>
